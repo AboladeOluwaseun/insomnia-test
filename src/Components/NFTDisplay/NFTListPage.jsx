@@ -33,7 +33,7 @@ const NFTListPage = () => {
       <div className="mt-8">
         <h1>Wallet Address:{walletAddress}</h1>
         <button onClick={connectWallet} className=" bg-button p-2 rounded-md">
-          Connect Wallet
+          Connect Wallet & get NFTs
         </button>
         <div className=" flex flex-wrap mt-8 md:gap-4 ">
           {nftList.map((nft) => (
