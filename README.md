@@ -67,9 +67,7 @@ This is a React application that lists the NFTs owned by a connected user's wall
 
 This application was developed as part of the Frontend Developer position take-home test for Insomnia Labs.
 
-Live demo [_here_](https://insomnia-test.vercel.app/)
-
-Feel free to explore the code and customize it according to your needs. If you have any questions or need further assistance, please don't hesitate to reach out.
+Live demo [_here_](https://insomnia-test.vercel.app/)  
 
 Best regards,
 Oluwaseun
