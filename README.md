@@ -43,16 +43,16 @@ This is a React application that lists the NFTs owned by a connected user's wall
 
 ## Technologies:
 
--React.js: JavaScript library for building user interfaces 
--Axios: Promise-based HTTP client for API requests  
--Tailwind CSS: Utility-first CSS framework for styling  
+-React.js: JavaScript library for building user interfaces     
+-Axios: Promise-based HTTP client for API requests      
+-Tailwind CSS: Utility-first CSS framework for styling    
 
 ## Usage:
 
 -Click the "Connect Wallet" button to connect your MetaMask wallet.  
 -MetaMask will prompt you to authorize the connection. Grant the necessary permissions.  
--The application will retrieve your wallet address and display it on the page. 
--The NFTs owned by your wallet will be fetched from the Rarible API and displayed. 
+-The application will retrieve your wallet address and display it on the page.  
+-The NFTs owned by your wallet will be fetched from the Rarible API and displayed.  
 -The NFTs are presented in a responsive layout, allowing for easy browsing on different devices.  
 
 ## Getting Started:
