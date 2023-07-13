@@ -2,7 +2,7 @@ import React from "react";
 
 const NftCard = ({ nft }) => {
   return (
-    <div className=" cursor-pointer min-h-[100%] w-[100%] sm:w-[60%] md:w-[30%] overflow-hidden border-2 mb-6   mx-auto  border-white-100  border-solid rounded-lg">
+    <div className=" cursor-pointer min-h-[100vh] w-[100%] sm:w-[60%] md:w-[30%] overflow-hidden border-2 mb-6   mx-auto  border-white-100  border-solid rounded-lg">
       {" "}
       <img
         src={nft.meta?.content[0].url}
