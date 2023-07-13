@@ -17,7 +17,7 @@ const NFTListPage = () => {
   const getNftData = async () => {
     if (!walletAddress) return;
     const response = await fetch(
-      `https://api.rarible.org/v0.1/items/byOwner/?owner=ETHEREUM:0x05E004d471DE8D251767f40D6a184560F19d4D71`
+      `https://api.rarible.org/v0.1/items/byOwner/?owner=ETHEREUM:${walletAddress}`
     );
     const data = await response.json();
     setNFTList(data.items);
