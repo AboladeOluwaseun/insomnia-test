@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import PageNav from "./PageNav";
-
+import { BASE_URL } from "../App";
 const BitcoinPriceIndexPage = () => {
   const [priceData, setPriceData] = useState({});
   const [refreshInterval, setRefreshInterval] = useState(5);
@@ -24,7 +24,7 @@ const BitcoinPriceIndexPage = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://api.coindesk.com/v1/bpi/currentprice.json"
+       BASE_URL
       );
       setPriceData(response.data);
     } catch (error) {

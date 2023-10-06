@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PageNav from "../PageNav";
 import NftCard from "./NftCard";
+import { BASE_URL } from "../../App";
 const NFTListPage = () => {
   const [walletAddress, setWalletAddress] = useState(null);
   const [nftList, setNFTList] = useState([]);
